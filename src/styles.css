@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 90%;
+  margin: auto
+}
+
+.Load {
+  font-family: sans-serif;
+  text-align: center;
+  width: 90%;
+  margin: auto
+}
+
+#root {
+  display: grid
+}
+
+button {
+  text-align: center;
+  width: 5%;
+  display: block;
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: auto;
+  margin-bottom: 0.2rem;
+  background-color: steelblue;
+  color: #fff;
+}
+
+.failed {
+  color: red
+}
+
+.success {
+  color: green
+}
